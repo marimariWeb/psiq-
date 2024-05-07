@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    height: 100%;
+}
+
+h1 {
+    background-color: rgb(161, 174, 233);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imagem1 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+
+}
+
+.imagem2{
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 3px solid rgb(161, 174, 233);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 3px solid rgb(161, 174, 233);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4{
+    background-color: rgb(161, 174, 233);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cont p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+header{
+    height: 10vh;
+    width: 203vh;
+    background-color:white;
+    box-shadow: 1px 1px 7px black;
+
+
+}
+nav {
+    position: relative; 
+    align-items: center;
+
+    }
+nav a{
+margin-left: 300px;
+top: -51px;
+position: relative;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: black;
+font-size: 20px;
+text-decoration: none;
+
+
+}
+.caixinha {
+   width: 204vh;
+   height: 60vh;
+   background-color: #800080;
+}
+
+.textoent{
+    font-family: "Alumni Sans Pinstripe";
+    background-color:purple;
+    color: white;
+    font-size: 60px;
+    top: 300px;
+    position: relative;
+    margin-left: 15%;
+}
+
+.coraçaun{
+    position: absolute;
+    width: 150px;
+    height: 350px; 
+    right: 48%;
+    margin-left: 10px;
+    top: 15vh;
+
+}
+
+.caixinha button{
+    position: absolute;
+    width: 200px;
+    height: 60px; 
+    right: 46%;
+    top: 50vh;
+    border-radius: 30px;
+    font-size: 20px;
+    
+
+}
+
+.jovem {
+   width: 204vh;
+   height: 60vh;
+   background-color: #ffffff;
+}
+
+.textoj{
+    font-family: "Alfa Slab One ";
+    background-color:rgb(255, 255, 255);
+    color: rgb(127, 72, 141);
+    font-size: 60px;
+    top: 40px;
+    position: relative;
+    margin-left: 3%;
+}
+
+.fotoj{
+    position: absolute;
+    width: 500px;
+    height: 400px; 
+    right: 48%;
+    left: 20px;
+    top: 85vh;
+}
+
+.textojovem{
+    font-family: "Archivo";
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    position: relative;
+    margin-left: 50%;
+    width: 800px;
+    height: 200px;
+}
+
+body, html{
+	overflow-x: hidden;
+}
+.menu{
+	background-color: #000000;
+	position: fixed;
+	overflow: hidden;
+	height: 50vh;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 40px;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+	-webkit-transform: translateZ(0) scale(1,1);
+	transform: translateZ(0) scale(1,1);
+}
+.menu > ul{
+	margin: 5px 0;
+}
+.menu li{
+	position: relative;
+	display: block;
+	width: 250px;
+}
+.menu li > a{
+	position: relative;
+	width: 255px;
+	color: #8a8a8a;
+	display: table;
+	font-size: 16px;
+	text-decoration: none;
+	-webkit-transform: translateZ(0) scale(1,1);
+	transform: translateZ(0) scale(1,1);
+	-webkit-transition: all 0.15s linear;
+	transition: all 0.15s linear;
+}
+.menu .span-menu{
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	width: 180px;
+}
+.lista{
+	background-color: #131313;
+	text-transform: capitalize;
+}
+.lista-logo, .li-empresa, .li-contato{
+	background-color: #010101;
+	text-transform: capitalize;
+}
+.menu li:hover a, nav.menu li.active > a{
+	color: #fff;
+	background-color: #282828;
+}
+nav{
+	-webkit-user-select: none;
+	user-select: none;
+	box-shadow: 0 0 10px #282828;
+}
+.fa{
+	position: relative;
+	width: 60px;
+	height: 40px;
+	text-align: center;
+	top: 12px;
+}
+.menu:hover, nav.menu.expanded{
+	width: 250px;
+	overflow: hidden;
+}
+
+.loginspace{
+    width: 50vh;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    left: 33%;
+    position: relative;
+    border-radius:30px;
+    top: 15vh;
+    align-content: center;
+    box-shadow: 0 7px 8px rgb(94, 94, 94);
+    transition: 1s;
+}
+.loginspace img{
+    width: 120px;
+    position: relative;
+    left: 37%;
+}
+.loginspacec img{
+    width: 120px;
+    position: relative;
+    left: 37%;
+}
+.loginspace:hover {
+    width: 55vh;
+    height: 65vh;
+}
+.loginspacec:hover {
+    width: 55vh;
+    height: 75vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.form p{
+    font-size: 14px;
+    font-family: "Montserrat";
+    margin-top: 10px;
+    font-weight: bold;
+}
+.form button{
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: purple;
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: "Montserrat";
+}
+.form button:hover{
+    background-color: purple
+}
+#nascimento{
+    position: relative;
+    width: 150px;
+   border-radius: 15px;
+   font-family: "Montserrat";
+
+}
+.email{
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+    border-radius: 15px;
+    width: 220px;
+    height: 30px;
+}
+.password{
+    margin-bottom: 5px;
+    font-family: "Montserrat";
+    border-radius: 10px;
+    height: 20px;
+}
+.txlogin{
+    position: relative;
+    font-size: 20px;
+    width: 352px;
+    top: -25px;
+    font-family: "Poppins";
+    left: 17%;
+    text-align: justify;
+    
+
+}
+.txcad{
+    position: relative;
+    font-size: 20px;
+    width: 352px;
+    top: -25px;
+    font-family: "Poppins";
+    left: 1%;
+    text-align: justify;
+
+}
+.form h4{
+    font-family: "Montserrat";
+    margin-bottom: 12px;
+}
+.form label{
+    font-family: "Montserrat";
+
+}
+
+.caixfed{
+    width: 100vh;
+    height: 40vh;
+    position: absolute;
+    top: 105vh;
+    left: 45%;
+}
+
+.texfed{
+    position: absolute;
+    width: 500px;
+    height: 400px; 
+    right: 48%;
+    left: 56%;
+    top: 115vh;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Eczar"
+    
+}
+
+.ref{
+    position: absolute;
+    width: 500px;
+    height: 400px; 
+    right: 48%;
+    left: 75%;
+    top: 130vh;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Eczar"
+    
+}
